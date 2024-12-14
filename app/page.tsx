@@ -4,6 +4,8 @@ import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTruck, faSeedling } from '@fortawesome/free-solid-svg-icons';
 import { faCircleCheck, faCreditCard } from '@fortawesome/free-regular-svg-icons';
+import Link from 'next/link';
+import Homefooter from '@/components/Homefooter';
 
 const Home = () => {
   return (
@@ -155,6 +157,81 @@ const Home = () => {
         {/* button */}
         <button type='button' className='text-[16px] satoshi bg-[#f9f9f9] w-[170px] px-[32px] py-[16px] rounded-[5px]  m-[auto]'>View collection</button>
       </div>
+
+      {/* Section 5 */}
+      <div className='p-[50px] bg-[#f9f9f9]'>
+        <div className='bg-white p-[100px] text-[#2a254b] flex flex-col items-center gap-[16px]'>
+          <h2 className='text-[36px] clash'>Join the club and get the benefits</h2>
+          <p className='text-[16px] leading-[24px] satoshi w-[470px] text-center'>Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
+          <div className='flex w-[472px] h-[56px] justify-center items-center mt-[50px]'>
+            <input type="email" placeholder='your@email.com' className='w-[354px] bg-[#f9f9f9] p-[16px] rounded-[5px]'/>
+            <button type='submit' className='bg-[#2a254b] text-white satoshi px-[32px] py-[16px] w-[130px]'>Sign up</button>
+          </div>
+        </div>
+      </div>
+
+      {/* Section 6 */}
+      <div className='flex justify-between items-center w-full'>
+
+        {/* Left */}
+        <div className='p-[100px] flex flex-col gap-[25px] w-[720px]'>
+          <h2 className='text-[24px] text-[#2a254b] clash leading-[33.6px]'>From a studio in London to a global brand with over 400 outlets</h2>
+          <p className='text-[16px] text-[#505977] satoshi'>When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market.</p>
+          <p className='text-[16px] text-[#505977] satoshi'>Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
+
+          <button type='button' className='bg-[#f9f9f9] satoshi px-[32px] py-[16px] w-[160px] rounded-[5px] mt-[80px]'>Get in touch</button>
+        </div>
+
+        <div>
+          <Image src='/images/touch-img.png' width={720} height={603} alt='Get in Touch' />
+        </div>
+      </div>
+
+      {/* Section 7 */}
+      <div className='p-[100px] bg-[#2a254b] text-white flex justify-between w-full border-b-[2px] border-[#4e4d93]'>
+
+        {/* 1 */}
+        <div className='w-[111px] flex flex-col gap-[12px]'>
+          <h3 className='clash text-[16px]'>Menu</h3>
+          <Link href='' className='text-[14px] satoshi'>New arrivals</Link>
+          <Link href='' className='text-[14px] satoshi'>Best sellers</Link>
+          <Link href='' className='text-[14px] satoshi'>Recently viewed</Link>
+          <Link href='' className='text-[14px] satoshi'>Popular this week</Link>
+          <Link href='' className='text-[14px] satoshi'>All products</Link>
+        </div>
+
+        {/* 2 */}
+        <div className='w-[84px] flex flex-col gap-[12px]'>
+          <h3 className='clash text-[16px]'>Categoies</h3>
+          <Link href='' className='text-[14px] satoshi'>Crockery</Link>
+          <Link href='' className='text-[14px] satoshi'>Furniture</Link>
+          <Link href='' className='text-[14px] satoshi'>Homeware</Link>
+          <Link href='' className='text-[14px] satoshi'>Plant pots</Link>
+          <Link href='' className='text-[14px] satoshi'>Chairs</Link>
+          <Link href='' className='text-[14px] satoshi'>Crockery</Link>
+        </div>
+
+        {/* 3 */}
+        <div className='w-[105px] flex flex-col gap-[12px]'>
+          <h3 className='clash text-[16px]'>Our company</h3>
+          <Link href='' className='text-[14px] satoshi'>About us</Link>
+          <Link href='' className='text-[14px] satoshi'>Vacancies</Link>
+          <Link href='' className='text-[14px] satoshi'>Contact us</Link>
+          <Link href='' className='text-[14px] satoshi'>Privacy</Link>
+          <Link href='' className='text-[14px] satoshi'>Returns policy</Link>
+        </div>
+
+        {/* 4 */}
+        <div className='flex flex-col w-[627px]'>
+          <h2 className='text-[16px] clash'>Join our mailing list</h2>
+          <div className='flex w-[472px] h-[56px] justify-center items-center mt-[50px]'>
+            <input type="email" placeholder='your@email.com' className='w-[354px] bg-[#4f4978] p-[16px] '/>
+            <button type='submit' className='bg-[#fff] text-[#2a254b] satoshi px-[32px] py-[16px] w-[130px]'>Sign up</button>
+          </div>
+        </div>
+      </div>
+
+      <Homefooter />
     </div>
   )
 }
