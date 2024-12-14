@@ -1,17 +1,16 @@
 import React from 'react'
-import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faCartShopping, faUser, faBars } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 
 const HomeHeader = () => {
   return (
-    <div className='px-[20px] py-[16px] flex flex-col items-center w-full bg-white my:w-[1440px] sm:w-[320px]'>
+    <div className='px-[20px] py-[16px] flex flex-col items-center w-full bg-white my:w-[1519.5px] sm:w-[320px]'>
         
         {/* 1 */}
         <div className='flex justify-between items-center bg-white text-black w-full border-gray-200 border-b-[1px] pb-[10px]'>
             <FontAwesomeIcon icon={faMagnifyingGlass} className='size-[20px] my:block sm:hidden'/>
-            <Image src='/images/Avion.png' width={65} height={30} alt='Logo' className=''/>
+            <h1 className='clash text-[24px] text-[#22202e]'>Avion</h1>
             <div className='my:flex gap-5 sm:hidden'>
                 <FontAwesomeIcon icon={faCartShopping} className='size-[20px]'/>
                 <FontAwesomeIcon icon={faUser} className='size-[20px]'/>
