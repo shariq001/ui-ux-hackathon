@@ -6,20 +6,20 @@ import Homefooter from '@/components/Homefooter';
 
 const Cart = () => {
   return (
-    <div>
+    <div className='my:w-[1440px]'>
         <HomeHeader />
 
-        <div className='px-[200px] py-[100px]'>
+        <div className='my:px-[200px] py-[100px] sm:px-[20px] '>
             <h2 className='clash text-[#2a254b] text-[36px]'>Your shopping cart</h2>
             <div className='flex justify-between items-center w-full clash text-[#2a254b] text-[14px] py-[16px] border-[#EBE8F4] border-b-[1px]'>
-              <h4 className='w-[309px]'>Product</h4>
+              <h4 className='my:w-[309px] sm:w-[190px]'>Product</h4>
               <h4>Quantity</h4>
               <h4>Total</h4>
             </div>
 
-            <div className='flex justify-between w-full items-center py-[16px]'>
+            <div className='flex justify-between w-full items-center py-[16px]  gap-[50px]'>
               <div className='flex justify-center gap-[20px] items-center w-[309px]'>
-                <Image src='/images/cart-img1.png' width={109} height={134} alt='Cart Item 1' />
+                <Image src='/images/cart-img1.png' width={109} height={134} alt='Cart Item 1' className='sm:hidden my:block'/>
                 <div className='flex flex-col gap-[15px] w-[179px] text-[#2a254b]'>
                   <h3 className='clash text-[20px]'>Graystone vase</h3>
                   <p className='text-[14px] satoshi'>A timeless ceramic vase with a tri color grey glaze.</p>
@@ -34,9 +34,9 @@ const Cart = () => {
               </div>
             </div>
 
-            <div className='flex justify-between w-full items-center py-[16px] border-[#EBE8F4] border-b-[1px]'>
+            <div className='flex justify-between w-full items-center py-[16px] border-[#EBE8F4] border-b-[1px] gap-[50px]'>
               <div className='flex justify-center gap-[20px] items-center w-[309px]'>
-                <Image src='/images/cart-img2.png' width={109} height={134} alt='Cart Item 1' />
+                <Image src='/images/cart-img2.png' width={109} height={134} alt='Cart Item 1' className='sm:hidden my:block'/>
                 <div className='flex flex-col gap-[15px] w-[179px] text-[#2a254b]'>
                   <h3 className='clash text-[20px]'>Basic white vase</h3>
                   <p className='text-[14px] satoshi'>Beautiful and simple this is one for the classics</p>
@@ -58,7 +58,7 @@ const Cart = () => {
             </div>
         </div>
 
-        <div className='p-[100px] bg-[#2a254b] text-white flex justify-between w-full border-b-[2px] border-[#4e4d93]'>
+        <div className='my:p-[100px] bg-[#2a254b] text-white flex justify-between my:flex-row w-full border-b-[2px] border-[#4e4d93] sm:flex-col sm:gap-[30px] sm:px-[20px] sm:py-[50px]'>
 
         {/* 1 */}
         <div className='w-[111px] flex flex-col gap-[12px]'>
@@ -94,9 +94,9 @@ const Cart = () => {
         {/* 4 */}
         <div className='flex flex-col w-[627px]'>
           <h2 className='text-[16px] clash'>Join our mailing list</h2>
-          <div className='flex w-[472px] h-[56px] justify-center items-center mt-[50px]'>
+          <div className='flex my:w-[472px] h-[56px] justify-center items-center mt-[50px] sm:w-[280px]'>
             <input type="email" placeholder='your@email.com' className='w-[354px] bg-[#f9f9f9]/15 p-[16px] '/>
-            <button type='submit' className='bg-[#fff] text-[#2a254b] satoshi px-[32px] py-[16px] w-[130px]'>Sign up</button>
+            <button type='submit' className='bg-[#fff] text-[#2a254b] my:text-[16px] satoshi my:px-[32px] py-[16px] my:w-[130px] sm:text-[13px] sm:px-[10px] sm:py-[16px] sm:w-[118px]'>Sign up</button>
           </div>
         </div>
       </div>

@@ -33,7 +33,7 @@ const ProductListing = () => {
     {isVisible && (
         <div>
         {/* Promo */}
-        <div className='bg-[#2a254b] text-white text-center flex justify-between items-center py-[10px] px-[30px] w-full'>
+        <div className='bg-[#2a254b] my:w-[1440px] text-white text-center flex justify-between items-center py-[10px] px-[30px] w-full'>
             <p></p>
             <p className='text-[14px] satoshi flex items-center justify-center'><FontAwesomeIcon icon={faTruck} className='size-[15px] inline-flex  mr-[10px]' />Free delivery on all orders over £50 with code easter checkout</p>
             <button type='button' onClick={() => setIsVisible(false)}><FontAwesomeIcon icon={faXmark} className='size-[15px]' /></button>
@@ -44,7 +44,7 @@ const ProductListing = () => {
     <ProductListingheader />
 
     {/* Section 1 */}
-    <div className='flex justify-center my:flex-row w-full my:items-center sm:flex-col sm:items-start'>
+    <div className='my:w-[1440px] flex justify-center my:flex-row w-full my:items-center sm:flex-col sm:items-start'>
 
         {/* Left */}
         <div>
@@ -93,13 +93,13 @@ const ProductListing = () => {
                         <button type='button' onClick={increment} className='text-[#cac6da]'>+</button>
                     </div>
                 </div>
-                <button className='bg-[#2a254b] text-white satoshi w-[143px] py-[16px] px-[32px]'>Add to cart</button>
+                <Link href='/Cart'><button className='bg-[#2a254b] text-white satoshi w-[143px] py-[16px] px-[32px]'>Add to cart</button></Link>
             </div>
         </div>
     </div>
 
     {/* Section 2 */}
-    <div className='my:p-[100px] flex flex-col gap-[50px] sm:px-[20px] sm:py-[50px]'>
+    <div className='my:w-[1440px] my:p-[100px] flex flex-col gap-[50px] sm:px-[20px] sm:py-[50px]'>
     
             {/* first */}
             <div>
@@ -139,11 +139,11 @@ const ProductListing = () => {
             </div>
     
             {/* button */}
-            <button type='button' className='text-[16px] satoshi bg-[#f9f9f9] my:w-[170px] px-[32px] py-[16px] rounded-[5px]  m-[auto] sm:w-full'>View collection</button>
+            <Link href='/Products' className='m-[auto]'><button type='button' className='text-[16px] satoshi bg-[#f9f9f9] my:w-[170px] px-[32px] py-[16px] rounded-[5px] m-[auto] sm:w-full'>View collection</button></Link>
     </div>
 
     {/* Section 3 */}
-    <div className='my:p-[100px] flex flex-col my:items-center gap-[50px] sm:px-[20px] sm:py-[50px] sm:items-start'>
+    <div className='my:w-[1440px] my:p-[100px] flex flex-col my:items-center gap-[50px] sm:px-[20px] sm:py-[50px] sm:items-start'>
     
             {/* first */}
             <div>
@@ -184,7 +184,7 @@ const ProductListing = () => {
     </div>
 
     {/* Section 4 */}
-    <div className='my:p-[50px] bg-[#f9f9f9] sm:px-[0px] sm:my-[30px] my:my-0'>
+    <div className=' my:w-[1440px] my:p-[50px] bg-[#f9f9f9] sm:px-[0px] sm:my-[30px] my:my-0'>
         <div className='bg-white my:p-[100px] text-[#2a254b] flex flex-col my:items-center gap-[16px] sm:px-[20px] sm:items-start'>
           <h2 className='my:text-[36px] clash sm:text-[20px]'>Join the club and get the benefits</h2>
           <p className='my:text-[16px] leading-[24px] satoshi my:w-[470px] my:text-center sm:text-[14px] sm:w-full sm:text-left'>Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
@@ -196,7 +196,7 @@ const ProductListing = () => {
     </div>
 
     {/* Section 5 */}
-    <div className='my:p-[100px] bg-[#2a254b] text-white flex my:flex-row justify-between w-full border-b-[2px] border-[#4e4d93] sm:px-[20px] sm:py-[50px] sm:flex-col sm:gap-[50px]'>
+    <div className='my:w-[1440px] my:p-[100px] bg-[#2a254b] text-white flex my:flex-row justify-between w-full border-b-[2px] border-[#4e4d93] sm:px-[20px] sm:py-[50px] sm:flex-col sm:gap-[50px]'>
 
         {/* 1 */}
         <div className='w-[160px]'>
@@ -220,11 +220,11 @@ const ProductListing = () => {
         {/* 2 */}
         <div className='w-[111px] flex flex-col gap-[12px]'>
           <h3 className='clash text-[16px]'>Menu</h3>
-          <Link href='' className='text-[14px] satoshi'>New arrivals</Link>
-          <Link href='' className='text-[14px] satoshi'>Best sellers</Link>
-          <Link href='' className='text-[14px] satoshi'>Recently viewed</Link>
-          <Link href='' className='text-[14px] satoshi'>Popular this week</Link>
-          <Link href='' className='text-[14px] satoshi'>All products</Link>
+          <Link href='/Products' className='text-[14px] satoshi'>New arrivals</Link>
+          <Link href='/Products' className='text-[14px] satoshi'>Best sellers</Link>
+          <Link href='/Products' className='text-[14px] satoshi'>Recently viewed</Link>
+          <Link href='/Products' className='text-[14px] satoshi'>Popular this week</Link>
+          <Link href='/Products' className='text-[14px] satoshi'>All products</Link>
         </div>
 
         {/* 2 */}
@@ -241,7 +241,7 @@ const ProductListing = () => {
         {/* 3 */}
         <div className='w-[105px] flex flex-col gap-[12px]'>
           <h3 className='clash text-[16px]'>Our company</h3>
-          <Link href='' className='text-[14px] satoshi'>About us</Link>
+          <Link href='/About' className='text-[14px] satoshi'>About us</Link>
           <Link href='' className='text-[14px] satoshi'>Vacancies</Link>
           <Link href='' className='text-[14px] satoshi'>Contact us</Link>
           <Link href='' className='text-[14px] satoshi'>Privacy</Link>

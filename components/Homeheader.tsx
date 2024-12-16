@@ -5,14 +5,14 @@ import Link from 'next/link';
 
 const HomeHeader = () => {
   return (
-    <div className='px-[20px] py-[16px] flex flex-col items-center w-full bg-white my:w-[1500px] sm:w-[390px]'>
+    <div className='px-[20px] py-[16px] flex flex-col items-center w-full bg-white my:w-[1440px] sm:w-[390px]'>
         
         {/* 1 */}
         <div className='flex justify-between items-center bg-white text-black w-full border-gray-200 border-b-[1px] pb-[10px]'>
             <FontAwesomeIcon icon={faMagnifyingGlass} className='size-[20px] my:block sm:hidden'/>
             <h1 className='clash text-[24px] text-[#22202e]'>Avion</h1>
             <div className='my:flex gap-5 sm:hidden'>
-                <FontAwesomeIcon icon={faCartShopping} className='size-[20px]'/>
+                <Link href='/Cart'><FontAwesomeIcon icon={faCartShopping} className='size-[20px]'/></Link>
                 <FontAwesomeIcon icon={faUser} className='size-[20px]'/>
             </div>
             <div className='sm:flex gap-4 my:hidden '>

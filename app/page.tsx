@@ -9,7 +9,7 @@ import Homefooter from '@/components/Homefooter';
 
 const Home = () => {
   return (
-    <div className='my:w-[1500px] sm:w-[390px]'>
+    <div className='my:w-[1440px] sm:w-[390px]'>
       <HomeHeader />
 
       {/* Section 1 */}
@@ -21,7 +21,7 @@ const Home = () => {
           {/* Upper */}
           <div className=' flex flex-col gap-[30px] my:w-[513px] sm:w-[350px]'>
             <h1 className='text-[32px] leading-[44.8px] clash'>The furniture brand for the future, with timeless designs</h1>
-            <button type='button' className='satoshi text-[16px] bg-[#f9f9f9]/15 px-[30px] py-[16px] w-[170px]'>View collection</button>
+            <Link href='/Products'><button type='button' className='satoshi text-[16px] bg-[#f9f9f9]/15 px-[30px] py-[16px] w-[170px]'>View collection</button></Link>
           </div>
 
           {/* Lower */}
@@ -118,7 +118,7 @@ const Home = () => {
         </div>
 
         {/* button */}
-        <button type='button' className='text-[16px] satoshi bg-[#f9f9f9] my:w-[170px] px-[32px] py-[16px] rounded-[5px] m-[auto] sm:w-full'>View collection</button>
+        <Link href='/Products' className='m-[auto]'><button type='button' className='text-[16px] satoshi bg-[#f9f9f9] my:w-[170px] px-[32px] py-[16px] rounded-[5px] m-[auto] sm:w-full'>View collection</button></Link>
       </div>
 
       {/* Section 4 */}
@@ -155,7 +155,7 @@ const Home = () => {
         </div>
 
         {/* button */}
-        <button type='button' className='text-[16px] satoshi bg-[#f9f9f9] my:w-[170px] px-[32px] py-[16px] rounded-[5px]  m-[auto] sm:w-full'>View collection</button>
+        <Link href='/Products' className='m-[auto]'><button type='button' className='text-[16px] satoshi bg-[#f9f9f9] my:w-[170px] px-[32px] py-[16px] rounded-[5px] my:m-[auto] sm:w-full'>View collection</button></Link>
       </div>
 
       {/* Section 5 */}
@@ -179,7 +179,7 @@ const Home = () => {
           <p className='my:text-[16px] text-[#505977] satoshi sm:text-[14px] sm:leading-[21px]'>When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market.</p>
           <p className='my:text-[16px] text-[#505977] satoshi sm:text-[14px] sm:leading-[21px]'>Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
 
-          <button type='button' className='bg-[#f9f9f9] satoshi px-[32px] py-[16px] my:w-[160px] rounded-[5px] mt-[80px] sm:w-full'>Get in touch</button>
+          <Link href='/About'><button type='button' className='bg-[#f9f9f9] satoshi px-[32px] py-[16px] my:w-[160px] rounded-[5px] mt-[80px] sm:w-full'>Get in touch</button></Link>
         </div>
 
         <div>
@@ -193,11 +193,11 @@ const Home = () => {
         {/* 1 */}
         <div className='w-[111px] flex flex-col gap-[12px]'>
           <h3 className='clash text-[16px]'>Menu</h3>
-          <Link href='' className='text-[14px] satoshi'>New arrivals</Link>
-          <Link href='' className='text-[14px] satoshi'>Best sellers</Link>
-          <Link href='' className='text-[14px] satoshi'>Recently viewed</Link>
-          <Link href='' className='text-[14px] satoshi'>Popular this week</Link>
-          <Link href='' className='text-[14px] satoshi'>All products</Link>
+          <Link href='/Products' className='text-[14px] satoshi'>New arrivals</Link>
+          <Link href='/Products' className='text-[14px] satoshi'>Best sellers</Link>
+          <Link href='/Products' className='text-[14px] satoshi'>Recently viewed</Link>
+          <Link href='/Products' className='text-[14px] satoshi'>Popular this week</Link>
+          <Link href='/Products' className='text-[14px] satoshi'>All products</Link>
         </div>
 
         {/* 2 */}
@@ -214,7 +214,7 @@ const Home = () => {
         {/* 3 */}
         <div className='w-[105px] flex flex-col gap-[12px]'>
           <h3 className='clash text-[16px]'>Our company</h3>
-          <Link href='' className='text-[14px] satoshi'>About us</Link>
+          <Link href='/About' className='text-[14px] satoshi'>About us</Link>
           <Link href='' className='text-[14px] satoshi'>Vacancies</Link>
           <Link href='' className='text-[14px] satoshi'>Contact us</Link>
           <Link href='' className='text-[14px] satoshi'>Privacy</Link>
