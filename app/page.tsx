@@ -9,7 +9,7 @@ import Homefooter from '@/components/Homefooter';
 
 const Home = () => {
   return (
-    <div className='my:w-[1519.5px] sm:w-[320px]'>
+    <div className='my:w-[1500px] sm:w-[320px]'>
       <HomeHeader />
 
       {/* Section 1 */}
@@ -225,7 +225,7 @@ const Home = () => {
         <div className='flex flex-col w-[627px]'>
           <h2 className='text-[16px] clash'>Join our mailing list</h2>
           <div className='flex w-[472px] h-[56px] justify-center items-center mt-[50px]'>
-            <input type="email" placeholder='your@email.com' className='w-[354px] bg-[#4f4978] p-[16px] '/>
+            <input type="email" placeholder='your@email.com' className='w-[354px] bg-[#f9f9f9]/15 p-[16px] '/>
             <button type='submit' className='bg-[#fff] text-[#2a254b] satoshi px-[32px] py-[16px] w-[130px]'>Sign up</button>
           </div>
         </div>

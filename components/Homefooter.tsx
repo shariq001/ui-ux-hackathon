@@ -5,7 +5,7 @@ import { faLinkedin, faSquareFacebook, faInstagram, faSkype, faTwitter, faPinter
 
 const Homefooter = () => {
   return (
-    <div className='w-[1519.5px] bg-[#2a254b] text-white px-[100px] py-[16px] flex justify-between items-center'>
+    <div className='w-[1500px] bg-[#2a254b] text-white px-[100px] py-[16px] flex justify-between items-center'>
         <h2 className='satoshi text-[14px]'>Copyright 2022 Avion LTD</h2>
         <nav className='flex gap-[24px]'>
             <Link href=''><FontAwesomeIcon icon={faLinkedin} className='size-[24px] text-white' /></Link>

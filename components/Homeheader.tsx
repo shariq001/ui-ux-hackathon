@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const HomeHeader = () => {
   return (
-    <div className='px-[20px] py-[16px] flex flex-col items-center w-full bg-white my:w-[1519.5px] sm:w-[320px]'>
+    <div className='px-[20px] py-[16px] flex flex-col items-center w-full bg-white my:w-[1500px] sm:w-[320px]'>
         
         {/* 1 */}
         <div className='flex justify-between items-center bg-white text-black w-full border-gray-200 border-b-[1px] pb-[10px]'>

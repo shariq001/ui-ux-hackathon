@@ -5,7 +5,7 @@ import { faMagnifyingGlass, faCartShopping, faUser } from '@fortawesome/free-sol
 
 const ProductListingheader = () => {
   return (
-    <div className='w-[1519.5px] flex justify-between items-center py-[16px] px-[100px]'>
+    <div className='w-[1500px] flex justify-between items-center py-[16px] px-[100px]'>
         <h1 className='text-[#22202e] text-[24px] clash'>Avion</h1>
         <nav className='flex justify-center items-center gap-[44px] text-[#726E8D] text-[16px] satoshi'>
             <Link href=''>Plant pots</Link>
