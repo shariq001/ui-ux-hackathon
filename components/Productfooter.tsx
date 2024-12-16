@@ -2,7 +2,7 @@ import React from 'react'
 
 const Productfooter = () => {
   return (
-    <div className='bg-[#2a254b] text-white py-[16px] px-[100px] satoshi text-[14px]'>
+    <div className='bg-[#2a254b] text-white my:text-left py-[16px] my:px-[100px] satoshi text-[14px] sm:px-[20px] sm:text-center'>
         Copyright 2022 Avion LTD
     </div>
   )

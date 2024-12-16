@@ -44,21 +44,21 @@ const ProductListing = () => {
     <ProductListingheader />
 
     {/* Section 1 */}
-    <div className='flex justify-center w-full items-center'>
+    <div className='flex justify-center my:flex-row w-full my:items-center sm:flex-col sm:items-start'>
 
         {/* Left */}
         <div>
-            <Image src='/images/productimg1.png' width={721} height={759} alt='Product Image' />
+            <Image src='/images/productimg1.png' width={721} height={759} alt='Product Image' className='sm:w-[390px] sm:h-[380px] my:w-[721px] my:h-[759px]'/>
         </div>
 
         {/* Right */}
-        <div className='p-[100px] '>
-            <h1 className='text-[36px] clash text-[#2a254b]'>The Dandy Chair</h1>
-            <h3 className='text-[24px] satoshi text-[#12131a] mb-[30px]'>&pound;250</h3>
-            <div className='w-[522px] flex flex-col gap-[20px]'>
+        <div className='my:p-[100px] sm:px-[20px] sm:py-[50px]'>
+            <h1 className='my:text-[36px] clash text-[#2a254b] sm:text-[24px]'>The Dandy Chair</h1>
+            <h3 className='my:text-[24px] satoshi text-[#12131a] mb-[30px] sm:text-[20px]'>&pound;250</h3>
+            <div className='my:w-[522px] flex flex-col gap-[20px] sm:w-[280px]'>
                 <h4 className='text-[16px] clash text-[#2a254b]'>Description</h4>
-                <p className='text-[16px] satoshi text-[#505977]'>A timeless design, with premium materials features as one of our most popular and iconic pieces. The dandy chair is perfect for any stylish living space with beech legs and lambskin leather upholstery.</p>
-                <ul className='text-[16px] list-disc satoshi text-[#505977] ml-[30px]'>
+                <p className='my:text-[16px] satoshi text-[#505977] sm:text-[14px]'>A timeless design, with premium materials features as one of our most popular and iconic pieces. The dandy chair is perfect for any stylish living space with beech legs and lambskin leather upholstery.</p>
+                <ul className='my:text-[16px] list-disc satoshi text-[#505977] ml-[30px] sm:text-[14px]'>
                     <li className='list-item'>Premium material</li>
                     <li className='list-item'>Handmade upholstery</li>
                     <li className='list-item'>Quality timeless classic</li>
@@ -84,7 +84,7 @@ const ProductListing = () => {
                 </table>
             </div>
 
-            <div className='py-[50px] pt-0 flex justify-between w-[602px] items-center'>
+            <div className='py-[50px] pt-0 flex my:flex-row justify-between my:w-[602px] my:items-center sm:flex-col sm:items-start sm:gap-[20px] sm:w-[280px]'>
                 <div className='flex justify-center items-center'>
                     <h3 className='clash text-[#2a254b]'>Amount:</h3>
                     <div className='bg-[#f9f9f9] p-[15px] ml-[15px] flex justify-between w-[122px] rounded-sm'>
@@ -99,59 +99,59 @@ const ProductListing = () => {
     </div>
 
     {/* Section 2 */}
-    <div className='p-[100px] flex flex-col gap-[50px]'>
+    <div className='my:p-[100px] flex flex-col gap-[50px] sm:px-[20px] sm:py-[50px]'>
     
             {/* first */}
             <div>
-              <h2 className='text-[32px] clash text-[#2a254b]'>You might also like</h2>
+              <h2 className='my:text-[32px] clash text-[#2a254b] sm:text-[20px]'>You might also like</h2>
             </div>
     
             {/* Second */}
-            <div className='flex justify-between w-full text-[#2a254b]'>
+            <div className='flex my:flex-row justify-between w-full text-[#2a254b] sm:flex-wrap'>
     
               {/* 1 */}
-              <div className='flex flex-col gap-[10px] w-[305px]'>
-                <Image src='/images/product1.png' width={305} height={375} alt='Product Card' />
+              <div className='flex flex-col gap-[10px] my:w-[305px] sm:w-[163px]'>
+                <Image src='/images/product1.png' width={305} height={375} alt='Product Card' className='sm:w-[163px] sm:h-[201px] my:w-[305px] my:h-[375px]'/>
                 <p className='text-[20px] clash'>The Dandy chair</p>
                 <p className='text-[18px] satoshi'>&pound;250</p>
               </div>
     
               {/* 2 */}
-              <div className='flex flex-col gap-[10px] w-[305px]'>
-                <Image src='/images/product2.png' width={305} height={375} alt='Product Card' />
+              <div className='flex flex-col gap-[10px] my:w-[305px] sm:w-[163px]'>
+                <Image src='/images/product2.png' width={305} height={375} alt='Product Card' className='sm:w-[163px] sm:h-[201px] my:w-[305px] my:h-[375px]'/>
                 <p className='text-[20px] clash'>Rustic Vase Set</p>
                 <p className='text-[18px] satoshi'>&pound;155</p>
               </div>
     
               {/* 3 */}
-              <div className='flex flex-col gap-[10px] w-[305px]'>
-                <Image src='/images/product3.png' width={305} height={375} alt='Product Card' />
+              <div className='flex flex-col gap-[10px] my:w-[305px] sm:w-[163px] sm:mt-[40px] my:mt-0'>
+                <Image src='/images/product3.png' width={305} height={375} alt='Product Card' className='sm:w-[163px] sm:h-[201px] my:w-[305px] my:h-[375px]'/>
                 <p className='text-[20px] clash'>The Silky Vase</p>
                 <p className='text-[18px] satoshi'>&pound;125</p>
               </div>
     
               {/* 4 */}
-              <div className='flex flex-col gap-[10px] w-[305px]'>
-                <Image src='/images/product4.png' width={305} height={375} alt='Product Card' />
+              <div className='flex flex-col gap-[10px] my:w-[305px] sm:w-[163px] sm:mt-[40px] my:mt-0'>
+                <Image src='/images/product4.png' width={305} height={375} alt='Product Card' className='sm:w-[163px] sm:h-[201px] my:w-[305px] my:h-[375px]'/>
                 <p className='text-[20px] clash'>The Lucy Lamp</p>
                 <p className='text-[18px] satoshi'>&pound;399</p>
               </div>
             </div>
     
             {/* button */}
-            <button type='button' className='text-[16px] satoshi bg-[#f9f9f9] w-[170px] px-[32px] py-[16px] rounded-[5px]  m-[auto]'>View collection</button>
+            <button type='button' className='text-[16px] satoshi bg-[#f9f9f9] my:w-[170px] px-[32px] py-[16px] rounded-[5px]  m-[auto] sm:w-full'>View collection</button>
     </div>
 
     {/* Section 3 */}
-    <div className='p-[100px] flex flex-col items-center gap-[50px]'>
+    <div className='my:p-[100px] flex flex-col my:items-center gap-[50px] sm:px-[20px] sm:py-[50px] sm:items-start'>
     
             {/* first */}
             <div>
-              <h2 className='clash text-[24px] text-[#2a254b]'>What makes our brand different</h2>
+              <h2 className='clash my:text-[24px] text-[#2a254b] sm:text-[20px]'>What makes our brand different</h2>
             </div>
     
             {/* Second */}
-            <div className='flex justify-between w-full items-center '>
+            <div className='flex my:justify-between my:flex-row w-full my:items-center sm:flex-col sm:items-start sm:gap-[50px]'>
     
               {/* 1 */}
               <div className='flex flex-col gap-[15px] w-[270px] text-[#2a254b]'>
@@ -184,19 +184,19 @@ const ProductListing = () => {
     </div>
 
     {/* Section 4 */}
-    <div className='p-[50px] bg-[#f9f9f9]'>
-        <div className='bg-white p-[100px] text-[#2a254b] flex flex-col items-center gap-[16px]'>
-          <h2 className='text-[36px] clash'>Join the club and get the benefits</h2>
-          <p className='text-[16px] leading-[24px] satoshi w-[470px] text-center'>Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
-          <div className='flex w-[472px] h-[56px] justify-center items-center mt-[50px]'>
+    <div className='my:p-[50px] bg-[#f9f9f9] sm:px-[0px] sm:my-[30px] my:my-0'>
+        <div className='bg-white my:p-[100px] text-[#2a254b] flex flex-col my:items-center gap-[16px] sm:px-[20px] sm:items-start'>
+          <h2 className='my:text-[36px] clash sm:text-[20px]'>Join the club and get the benefits</h2>
+          <p className='my:text-[16px] leading-[24px] satoshi my:w-[470px] my:text-center sm:text-[14px] sm:w-full sm:text-left'>Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
+          <div className='flex my:w-[472px] h-[56px] justify-center items-center mt-[50px] sm:w-full'>
             <input type="email" placeholder='your@email.com' className='w-[354px] bg-[#f9f9f9] p-[16px] rounded-[5px]'/>
-            <button type='submit' className='bg-[#2a254b] text-white satoshi px-[32px] py-[16px] w-[130px]'>Sign up</button>
+            <button type='submit' className='bg-[#2a254b] my:text-[16px] text-white satoshi my:px-[32px] py-[16px] my:w-[130px] sm:text-[13px] sm:px-[10px] sm:py-[16px] sm:w-[118px]'>Sign up</button>
           </div>
         </div>
     </div>
 
     {/* Section 5 */}
-    <div className='p-[100px] bg-[#2a254b] text-white flex justify-between w-full border-b-[2px] border-[#4e4d93]'>
+    <div className='my:p-[100px] bg-[#2a254b] text-white flex my:flex-row justify-between w-full border-b-[2px] border-[#4e4d93] sm:px-[20px] sm:py-[50px] sm:flex-col sm:gap-[50px]'>
 
         {/* 1 */}
         <div className='w-[160px]'>
