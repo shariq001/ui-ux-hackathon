@@ -8,7 +8,7 @@ import Homefooter from '@/components/Homefooter';
 
 const Products = () => {
   return (
-    <div className='my:w-[1440px]'>
+    <div className='my:min-w-[1440px]'>
         <HomeHeader />
 
         <div>

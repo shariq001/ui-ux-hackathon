@@ -5,7 +5,7 @@ import { faMagnifyingGlass, faCartShopping, faUser, faBars } from '@fortawesome/
 
 const Aboutheader = () => {
   return (
-    <div className='flex flex-col items-center sm:w-[390px] my:w-[1440px]'>
+    <div className='flex flex-col items-center sm:min-w-[390px] my:min-w-[1440px]'>
 
         {/* First */}
         <div className='flex justify-between w-full items-center my:px-[100px] py-[16px] sm:px-[20px]'>

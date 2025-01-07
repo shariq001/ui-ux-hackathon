@@ -31,7 +31,7 @@ const About = () => {
         <Aboutheader />
 
         {/* Section 1 */}
-        <div className='my:w-[1440px] my:p-[100px] flex justify-between my:flex-row w-full items-center sm:px-[20px] sm:py-[50px] sm:flex-col sm:gap-[50px]'>
+        <div className='my:min-w-[1440px] my:p-[100px] flex justify-between my:flex-row w-full items-center sm:px-[20px] sm:py-[50px] sm:flex-col sm:gap-[50px]'>
             <h2 className='leading-[50.4px] my:text-[36px] clash my:w-[704px] text-[#2a254b] sm:text-[32px] sm:w-[342px]'>A brand built on the love of craftmanship, quality and outstanding customer service</h2>
             <Link href='/Products'><button type='button' className='text-[16px] satoshi bg-[#f9f9f9] my:w-[170px] px-[32px] py-[16px] rounded-[5px] my:m-[auto] sm:w-full'>View collection</button></Link>
         </div>

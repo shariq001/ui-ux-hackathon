@@ -6,7 +6,7 @@ import Homefooter from '@/components/Homefooter';
 
 const Cart = () => {
   return (
-    <div className='my:w-[1440px]'>
+    <div className='my:min-w-[1440px]'>
         <HomeHeader />
 
         <div className='my:px-[200px] py-[100px] sm:px-[20px] '>

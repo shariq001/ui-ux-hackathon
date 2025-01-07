@@ -5,7 +5,7 @@ import { faMagnifyingGlass, faCartShopping, faUser, faBars } from '@fortawesome/
 
 const ProductListingheader = () => {
   return (
-    <div className='my:w-[1440px] flex justify-between items-center py-[16px] my:px-[100px] sm:w-[390px] sm:px-[20px] sm:justify-between'>
+    <div className='my:min-w-[1440px] flex justify-between items-center py-[16px] my:px-[100px] sm:min-w-[390px] sm:px-[20px] sm:justify-between'>
         <h1 className='text-[#22202e] text-[24px] clash'>Avion</h1>
         <nav className='my:flex justify-center items-center gap-[44px] text-[#726E8D] text-[16px] satoshi sm:hidden'>
             <Link href=''>Plant pots</Link>

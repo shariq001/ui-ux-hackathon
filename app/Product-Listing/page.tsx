@@ -44,7 +44,7 @@ const ProductListing = () => {
     <ProductListingheader />
 
     {/* Section 1 */}
-    <div className='my:w-[1440px] flex justify-center my:flex-row w-full my:items-center sm:flex-col sm:items-start'>
+    <div className='my:min-w-[1440px] flex justify-center my:flex-row w-full my:items-center sm:flex-col sm:items-start'>
 
         {/* Left */}
         <div>
