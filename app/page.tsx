@@ -9,7 +9,7 @@ import Homefooter from '@/components/Homefooter';
 
 const Home = () => {
   return (
-    <div className='my:w-[1440px] sm:w-[390px]'>
+    <div className='my:min-w-[1440px] sm:min-w-[390px]'>
       <HomeHeader />
 
       {/* Section 1 */}
