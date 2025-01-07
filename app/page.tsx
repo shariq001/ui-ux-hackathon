@@ -16,7 +16,7 @@ const Home = () => {
       <div className='my:p-[100px] my:w-full flex my:flex-row my:justify-center items-center sm:px-0 sm:flex-col sm:w-full'>
 
         {/* Left */}
-        <div className='bg-[#2A254B] text-white flex flex-col items-start p-[50px] h-[584px] justify-between my:w-full sm:w-full'>
+        <div className='bg-[#2A254B] text-white flex flex-col items-start p-[50px] h-[450px] justify-between my:w-full sm:w-full'>
 
           {/* Upper */}
           <div className=' flex flex-col gap-[30px] my:w-[513px] '>
@@ -25,7 +25,7 @@ const Home = () => {
           </div>
 
           {/* Lower */}
-          <div className='text-[18px] satoshi my:w-[602px] sm:w-[330px]'>
+          <div className='text-[18px] satoshi my:w-[502px] sm:w-[330px]'>
             <p>A new era in eco friendly furniture with Avelon, the French luxury retail brand with nice fonts, tasteful colors and a beautiful way to display things digitally using modern web technologies.</p>
           </div>
         </div>
