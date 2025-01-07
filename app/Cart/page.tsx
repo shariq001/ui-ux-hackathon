@@ -6,7 +6,7 @@ import Homefooter from '@/components/Homefooter';
 
 const Cart = () => {
   return (
-    <div className='my:min-w-[1440px]'>
+    <div className='my:min-w-[1440px] sm:min-w-[390px]'>
         <HomeHeader />
 
         <div className='my:px-[200px] py-[100px] sm:px-[20px] '>
@@ -58,7 +58,7 @@ const Cart = () => {
             </div>
         </div>
 
-        <div className='my:p-[100px] bg-[#2a254b] text-white flex justify-between my:flex-row w-full border-b-[2px] border-[#4e4d93] sm:flex-col sm:gap-[30px] sm:px-[20px] sm:py-[50px]'>
+        <div className='my:p-[100px] bg-[#2a254b] text-white flex justify-between my:flex-row w-full border-b-[2px] border-[#4e4d93] sm:flex-col sm:gap-[30px] sm:px-[20px] sm:py-[50px] sm:min-w-[390px]'>
 
         {/* 1 */}
         <div className='w-[111px] flex flex-col gap-[12px]'>

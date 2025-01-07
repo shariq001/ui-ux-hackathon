@@ -33,7 +33,7 @@ const ProductListing = () => {
     {isVisible && (
         <div>
         {/* Promo */}
-        <div className='bg-[#2a254b] my:w-[1440px] text-white text-center flex justify-between items-center py-[10px] px-[30px] w-full'>
+        <div className='bg-[#2a254b] my:min-w-[1440px] sm:min-w-[390px] text-white text-center flex justify-between items-center py-[10px] px-[30px] w-full'>
             <p></p>
             <p className='text-[14px] satoshi flex items-center justify-center'><FontAwesomeIcon icon={faTruck} className='size-[15px] inline-flex  mr-[10px]' />Free delivery on all orders over £50 with code easter checkout</p>
             <button type='button' onClick={() => setIsVisible(false)}><FontAwesomeIcon icon={faXmark} className='size-[15px]' /></button>
