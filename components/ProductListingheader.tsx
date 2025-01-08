@@ -17,12 +17,12 @@ const ProductListingheader = () => {
   };
 
   return (
-    <div className="flex justify-between items-center py-[16px] px-[30px] sm:min-w-[320px] sm:px-[20px] my:min-w-[1440px] md:min-w-[768px]">
+    <div className="flex justify-between items-center py-[16px] px-[30px] sm:min-w-[320px] sm:px-[20px] my:min-w-[1440px] md:min-w-[768px] lg:min-w-[1024px]">
       {/* Logo */}
       <h1 className="text-[#22202e] text-[24px] clash">Avion</h1>
       
       {/* Desktop Navigation */}
-      <nav className="my:flex justify-center items-center gap-[44px] text-[#726E8D] text-[16px] satoshi sm:hidden">
+      <nav className="lg:flex justify-center items-center gap-[44px] text-[#726E8D] text-[16px] satoshi sm:hidden">
         <Link href="">Plant pots</Link>
         <Link href="">Ceramics</Link>
         <Link href="">Tables</Link>
@@ -58,16 +58,16 @@ const ProductListingheader = () => {
           </div>
           <ul className="flex flex-col gap-[16px] text-[18px] text-[#22202e]">
             <li onClick={closeMenu}>
-              <Link href="">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="">Product</Link>
+              <Link href="/Products">Product</Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="">Product Listing</Link>
+              <Link href="/Product-Listing">Product Listing</Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="">Cart</Link>
+              <Link href="/Cart">Cart</Link>
             </li>
           </ul>
         </div>

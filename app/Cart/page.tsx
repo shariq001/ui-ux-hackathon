@@ -92,10 +92,10 @@ const Cart = () => {
         </div>
 
         {/* 4 */}
-        <div className='flex flex-col my:w-[627px]'>
+        <div className='flex flex-col my:w-[500px]'>
           <h2 className='text-[16px] clash'>Join our mailing list</h2>
           <div className='flex my:w-[472px] h-[56px] justify-center items-center mt-[50px] sm:w-[280px]'>
-            <input type="email" placeholder='your@email.com' className='sm:w-[200px] bg-[#f9f9f9]/15 p-[16px] '/>
+            <input type="email" placeholder='your@email.com' className='sm:w-[200px] lg:w-[300px] bg-[#f9f9f9]/15 p-[16px] '/>
             <button type='submit' className='bg-[#fff] text-[#2a254b] my:text-[16px] satoshi my:px-[32px] py-[16px] my:w-[130px] sm:text-[13px] sm:px-[10px] sm:py-[16px] sm:w-[118px]'>Sign up</button>
           </div>
         </div>

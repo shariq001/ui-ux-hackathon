@@ -17,18 +17,29 @@ const HomeHeader = () => {
   };
 
   return (
-    <div className="my:px-[30px] py-[16px] flex flex-col items-center w-full bg-white my:min-w-[1440px] sm:px-[10px] sm:min-w-[320px] md:min-w-[768px] md:px-[30px]">
+    <div className="my:px-[30px] py-[16px] flex flex-col items-center w-full bg-white my:min-w-[1440px] sm:px-[10px] sm:min-w-[320px] md:min-w-[768px] md:px-[30px] lg:min-w-[1024px]">
       {/* Header Top Section */}
       <div className="flex justify-between items-center bg-white text-black w-full border-gray-200 border-b-[1px] pb-[10px]">
         <FontAwesomeIcon icon={faMagnifyingGlass} className="size-[20px] my:block sm:hidden" />
         <h1 className="clash text-[24px] text-[#22202e]">Avion</h1>
-        <div className="my:flex gap-5 sm:hidden">
+        <div className="my:flex gap-5 sm:hidden ">
           <Link href="/Cart">
             <FontAwesomeIcon icon={faCartShopping} className="size-[20px]" />
           </Link>
           <FontAwesomeIcon icon={faUser} className="size-[20px]" />
         </div>
-        <div className="sm:flex gap-4 my:hidden">
+        <div className="sm:flex gap-4 lg:hidden">
+          <FontAwesomeIcon icon={faMagnifyingGlass} className="size-[20px]" />
+          <button type="button" onClick={toggleMenu}>
+            <FontAwesomeIcon icon={faBars} className="size-[20px]" />
+          </button>
+        </div>
+
+        <div className="lg:flex sm:hidden justify-center items-center gap-[20px] my:hidden">
+          <Link href="/Cart">
+            <FontAwesomeIcon icon={faCartShopping} className="size-[20px]" />
+          </Link>
+          <FontAwesomeIcon icon={faUser} className="size-[20px]" />
           <FontAwesomeIcon icon={faMagnifyingGlass} className="size-[20px]" />
           <button type="button" onClick={toggleMenu}>
             <FontAwesomeIcon icon={faBars} className="size-[20px]" />
@@ -37,7 +48,7 @@ const HomeHeader = () => {
       </div>
 
       {/* Desktop Navigation */}
-      <div className="my:flex my:justify-center gap-5 satoshi py-[10px] text-[#726E8D] text-[16px] sm:hidden">
+      <div className="lg:flex my:justify-center gap-5 satoshi py-[10px] text-[#726E8D] text-[16px] sm:hidden">
         <Link href="">Plant pots</Link>
         <Link href="">Ceramics</Link>
         <Link href="">Tables</Link>
@@ -57,16 +68,16 @@ const HomeHeader = () => {
           </div>
           <ul className="flex flex-col gap-[16px] text-[18px] text-[#22202e]">
             <li onClick={closeMenu}>
-              <Link href="">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="">Product</Link>
+              <Link href="/Products">Products</Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="">Product Listing</Link>
+              <Link href="/Product-Listing">Product Listing</Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="">Cart</Link>
+              <Link href="/Cart">Cart</Link>
             </li>
             
           </ul>

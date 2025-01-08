@@ -21,15 +21,15 @@ const Aboutheader = () => {
       {/* Desktop Header */}
       <div className="flex justify-between items-center px-[30px] py-[16px]">
         <h1 className="text-[24px] clash">Avion</h1>
-        <div className="my:flex justify-end items-center gap-x-12 sm:hidden">
+        <div className="lg:flex justify-end items-center gap-x-12 sm:hidden">
           <div className="flex justify-end items-center gap-5 text-[#726E8D]">
-            <Link href="/">About us</Link>
+            <Link href="/About">About us</Link>
             <Link href="/">Contact</Link>
             <Link href="/">Blog</Link>
           </div>
           <div className="flex justify-end items-center gap-5">
             <button><FontAwesomeIcon icon={faMagnifyingGlass} className="text-[15px]" /></button>
-            <button><FontAwesomeIcon icon={faShoppingCart} className="text-[15px]" /></button>
+            <Link href='/Cart'><FontAwesomeIcon icon={faShoppingCart} className="text-[15px]" /></Link>
             <button><FontAwesomeIcon icon={faUser} className="text-[15px]" /></button>
           </div>
         </div>
@@ -49,9 +49,9 @@ const Aboutheader = () => {
           </div>
           <div className="flex flex-col gap-5 text-[#726E8D]">
             <Link href="/" onClick={closeNav}>Home</Link>
-            <Link href="/" onClick={closeNav}>Products</Link>
-            <Link href="/" onClick={closeNav}>Product Listing</Link>
-            <Link href="/" onClick={closeNav}>Cart</Link>
+            <Link href="/Products" onClick={closeNav}>Products</Link>
+            <Link href="/Product-Listing" onClick={closeNav}>Product Listing</Link>
+            <Link href="/Cart" onClick={closeNav}>Cart</Link>
           </div>
         </div>
       )}

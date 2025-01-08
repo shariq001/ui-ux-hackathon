@@ -24,7 +24,7 @@ const About = () => {
   return (
     <>
         {isVisible && (
-            <div className='my:min-w-[1440px] sm:min-w-[320px] md:min-w-[768px]'>
+            <div className='my:min-w-[1440px] sm:min-w-[320px] md:min-w-[768px] lg:min-w-[1024px]'>
                 {/* Promo */}
                 <div className='bg-[#2a254b] my:min-w-[1440px]  text-white text-center flex justify-between items-center py-[10px] px-[30px] w-full'>
                     <p></p>
@@ -37,20 +37,20 @@ const About = () => {
         <AboutHead />
 
         {/* Section 1 */}
-        <div className='my:min-w-[1440px] my:p-[100px] flex justify-between my:flex-row w-full items-center sm:min-w-[320px] sm:px-[20px] sm:py-[50px] sm:flex-col sm:gap-[50px] md:min-w-[768px]'>
-            <h2 className='leading-[50.4px] my:text-[36px] clash my:w-[704px] text-[#2a254b] sm:text-[28px] sm:w-[280px] md:w-[500px]'>A brand built on the love of craftmanship, quality and outstanding customer service</h2>
+        <div className='my:min-w-[1440px] my:p-[100px] flex justify-between my:flex-row w-full items-center sm:min-w-[320px] sm:px-[20px] sm:py-[50px] sm:flex-col sm:gap-[50px] md:min-w-[768px] lg:min-w-[1024px]'>
+            <h2 className='leading-[50.4px] my:text-[36px] clash lg:w-[704px] text-[#2a254b] sm:text-[28px] sm:w-[280px] md:w-[500px]'>A brand built on the love of craftmanship, quality and outstanding customer service</h2>
             <Link href='/Products'><button type='button' className='text-[16px] satoshi bg-[#f9f9f9] my:w-[170px] px-[32px] py-[16px] rounded-[5px] my:m-[auto] sm:w-full'>View collection</button></Link>
         </div>
 
         {/* Section 2 */}
-        <div className='my:w-[1440px] my:px-[100px] py-[50px] flex my:flex-row justify-between w-full items-center sm:flex-col sm:px-[0px] sm:gap-[0px] md:flex-row md:justify-center '>
-            <div className='bg-[#2a254b] text-white flex flex-col gap-[20px] my:w-[634px] my:h-[478px] my:p-[50px] sm:px-[20px] sm:py-[30px] sm:w-[320px] sm:h-[281px] md:w-[350px]'>
-                <h2 className='clash my:text-[32px] sm:text-[20px]'>It started with a small idea</h2>
-                <p className='my:text-[18px] satoshi leading-[24.3px] my:w-[495px] sm:text-[14px] sm:w-[278px]'>A global brand with local beginnings, our story begain in a small studio in South London in early 2014</p>
-                <Link href='/Products' ><button type='button' className='text-[16px] satoshi bg-[#f9f9f9]/15 my:w-[170px] px-[32px] py-[16px] sm:w-full'>View collection</button></Link>
+        <div className='my:w-[1440px] my:px-[100px] py-[50px] flex my:flex-row justify-between w-full items-center sm:flex-col sm:px-[0px] sm:gap-[0px] md:flex-row md:justify-center lg:justify-between'>
+            <div className='bg-[#2a254b] text-white flex flex-col gap-[20px] my:w-[634px] my:h-[478px] my:p-[50px] sm:px-[20px] sm:py-[30px] sm:w-[320px] sm:h-[281px] md:w-[350px] lg:w-[500px] lg:h-[400px]'>
+                <h2 className='clash lg:text-[32px] sm:text-[20px]'>It started with a small idea</h2>
+                <p className='lg:text-[18px] satoshi leading-[24.3px] lg:w-[495px] sm:text-[14px] sm:w-[278px]'>A global brand with local beginnings, our story begain in a small studio in South London in early 2014</p>
+                <Link href='/Products' ><button type='button' className='text-[16px] satoshi bg-[#f9f9f9]/15 lg:w-[170px] px-[32px] py-[16px] sm:w-full'>View collection</button></Link>
             </div>
             <div>
-                <Image src='/images/about-img1.png' width={630} height={478} alt='Image 1' className='sm:w-[320px] sm:h-[259px] my:w-[630px] my:h-[478px] md:h-[281px] md:w-[350px]'/>
+                <Image src='/images/about-img1.png' width={630} height={478} alt='Image 1' className='sm:w-[320px] sm:h-[259px] my:w-[630px] my:h-[478px] md:h-[281px] md:w-[350px] lg:w-[500px] lg:h-[400px]'/>
             </div>
         </div>
 
@@ -59,16 +59,16 @@ const About = () => {
         
             {/* Left */}
             <div>
-                <Image src='/images/about-img2.png' width={720} height={603} alt='Get in Touch' className='sm:w-[320px] sm:h-[358px] my:w-[720px] my:h-[603px] md:w-[350px] md:h-[450px]'/>
+                <Image src='/images/about-img2.png' width={720} height={603} alt='Get in Touch' className='sm:w-[320px] sm:h-[358px] my:w-[720px] my:h-[603px] md:w-[350px] md:h-[450px] lg:w-[500px] lg:h-[400px]'/>
             </div>
 
             {/* Right */}
-            <div className='my:p-[100px] flex flex-col gap-[25px]  my:w-[720px] sm:px-[20px] sm:py-[50px] sm:w-full md:w-[350px]'>
-                  <h2 className='my:text-[24px] text-[#2a254b] clash leading-[33.6px] sm:text-[20px]'>Our service isn&apos;t just personal, it&apos;s actually hyper personally exquisite</h2>
+            <div className='my:p-[100px] flex flex-col gap-[25px]  my:w-[720px] sm:px-[20px] sm:py-[50px] sm:w-full md:w-[350px] lg:w-[500px] lg:h-[400px]'>
+                  <h2 className='lg:text-[32px] text-[#2a254b] clash leading-[33.6px] sm:text-[20px]'>Our service isn&apos;t just personal, it&apos;s actually hyper personally exquisite</h2>
                   <p className='my:text-[16px] text-[#505977] satoshi sm:text-[14px]'>When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market.</p>
                   <p className='my:text-[16px] text-[#505977] satoshi sm:text-[14px]'>Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
         
-                  <Link href='/About'><button type='button' className='text-[16px] satoshi bg-[#fff] my:w-[170px] px-[32px] py-[16px] rounded-[5px] my:m-[auto] sm:w-full'>Get in touch</button></Link>
+                  <Link href='/About'><button type='button' className='text-[16px] satoshi bg-[#fff] lg:w-[170px] px-[32px] py-[16px] rounded-[5px] my:m-[auto] sm:w-full'>Get in touch</button></Link>
             </div> 
         </div>
 
@@ -77,35 +77,35 @@ const About = () => {
         
                 {/* first */}
                 <div>
-                  <h2 className='clash my:text-[24px] text-[#2a254b] sm:text-[20px]'>What makes our brand different</h2>
+                  <h2 className='clash lg:text-[32px] text-[#2a254b] sm:text-[20px]'>What makes our brand different</h2>
                 </div>
         
                 {/* Second */}
-                <div className='flex my:flex-row justify-between w-full my:items-center sm:flex-col sm:gap-[50px] sm:items-start md:items-center'>
+                <div className='flex lg:flex-row justify-between w-full my:items-center sm:flex-col sm:gap-[50px] sm:items-start md:items-center'>
         
                   {/* 1 */}
-                  <div className='flex flex-col gap-[15px] sm:w-[270px] text-[#2a254b] md:w-[400px]'>
+                  <div className='flex flex-col gap-[15px] sm:w-[270px] text-[#2a254b] md:w-[400px] sm:items-start md:items-center text-center'>
                     <FontAwesomeIcon icon={faTruck} className='size-[24px]' />
                     <h2 className='text-[20px] clash'>Next day as standard</h2>
                     <p className='satoshi text-[16px] leading-[24px]'>Order before 3pm and get your order the next day as standard</p>
                   </div>
         
                   {/* 2 */}
-                  <div className='flex flex-col gap-[15px] sm:w-[270px] text-[#2a254b] md:w-[400px]'>
+                  <div className='flex flex-col gap-[15px] sm:w-[270px] text-[#2a254b] md:w-[400px] sm:items-start md:items-center text-center'>
                     <FontAwesomeIcon icon={faCircleCheck} className='size-[24px]' />
                     <h2 className='text-[20px] clash'>Made by true artisans</h2>
                     <p className='satoshi text-[16px] leading-[24px]'>Handmade crafted goods made with real passion and craftmanship</p>
                   </div>
         
                   {/* 3 */}
-                  <div className='flex flex-col gap-[15px] sm:w-[270px] text-[#2a254b] md:w-[400px]'>
+                  <div className='flex flex-col gap-[15px] sm:w-[270px] text-[#2a254b] md:w-[400px] sm:items-start md:items-center text-center'>
                     <FontAwesomeIcon icon={faCreditCard} className='size-[24px]' />
                     <h2 className='text-[20px] clash'>Unbeatable prices</h2>
                     <p className='satoshi text-[16px] leading-[24px]'>For our materials and quility you won&apos;t find better prices anywhere</p>
                   </div>
         
                   {/* 4 */}
-                  <div className='flex flex-col gap-[15px] sm:w-[270px] text-[#2a254b] md:w-[400px]'>
+                  <div className='flex flex-col gap-[15px] sm:w-[270px] text-[#2a254b] md:w-[400px] sm:items-start md:items-center text-center'>
                     <FontAwesomeIcon icon={faSeedling} className='size-[24px]' />
                     <h2 className='text-[20px] clash'>Recycled packaging</h2>
                     <p className='satoshi text-[16px] leading-[24px]'>We use 100% recycled packaging to ensure our footprint is manageable</p>
@@ -115,11 +115,11 @@ const About = () => {
 
         {/* Section 5 */}
         <div className='my:min-w-[1440px] my:p-[50px] bg-[#f9f9f9] sm:px-[0px] sm:py-[50px] md:px-[30px]'>
-            <div className='bg-white my:p-[100px] text-[#2a254b] flex flex-col my:items-center gap-[16px] sm:px-[20px] sm:items-start md:py-[30px]'>
-            <h2 className='my:text-[36px] clash sm:text-[20px]'>Join the club and get the benefits</h2>
-            <p className='text-[16px] leading-[24px] satoshi my:w-[470px] my:text-center sm:text-[14px] sm:w-full sm:text-left'>Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
+            <div className='bg-white my:p-[100px] text-[#2a254b] flex flex-col lg:items-center gap-[16px] sm:px-[20px] sm:items-start md:py-[30px]'>
+            <h2 className='lg:text-[36px] clash sm:text-[20px]'>Join the club and get the benefits</h2>
+            <p className='text-[16px] leading-[24px] satoshi lg:w-[470px] my:text-center sm:text-[14px] sm:w-full sm:text-left lg:text-center'>Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
             <div className='flex my:w-[472px] h-[56px] justify-center items-center mt-[50px] sm:w-full'>
-                <input type="email" placeholder='your@email.com' className='sm:w-[200px] md:w-[400px] bg-[#f9f9f9] p-[16px] rounded-[5px]'/>
+                <input type="email" placeholder='your@email.com' className='sm:w-[200px] md:w-[300px] lg:w-[400px] bg-[#f9f9f9] p-[16px] rounded-[5px]'/>
                 <button type='submit' className='bg-[#2a254b] text-white my:text-[16px] satoshi my:px-[32px] py-[16px] my:w-[130px] sm:text-[13px] sm:px-[10px] sm:py-[16px] sm:w-[118px]'>Sign up</button>
             </div>
             </div>
