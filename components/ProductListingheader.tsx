@@ -17,7 +17,7 @@ const ProductListingheader = () => {
   };
 
   return (
-    <div className="my:min-w-[1440px] flex justify-between items-center py-[16px] my:px-[100px] sm:min-w-[390px] sm:px-[20px] sm:justify-between">
+    <div className="flex justify-between items-center py-[16px] px-[30px] sm:min-w-[390px] sm:px-[20px] my:min-w-[1440px]">
       {/* Logo */}
       <h1 className="text-[#22202e] text-[24px] clash">Avion</h1>
       

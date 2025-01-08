@@ -9,30 +9,30 @@ import Homefooter from '@/components/Homefooter';
 
 const Home = () => {
   return (
-    <div className='my:min-w-[1440px] sm:min-w-[390px]'>
+    <div className='my:min-w-[1440px] sm:min-w-[320px]'>
       <HomeHeader />
 
       {/* Section 1 */}
       <div className='my:p-[100px] my:w-full flex my:flex-row my:justify-center items-center sm:px-0 sm:flex-col sm:w-full'>
 
         {/* Left */}
-        <div className='bg-[#2A254B] text-white flex flex-col items-start p-[50px] h-[450px] justify-between my:w-full sm:w-full'>
+        <div className='bg-[#2A254B] text-white flex flex-col items-start p-[50px] my:h-[584px] sm:h-[550px] justify-between my:w-[656px] sm:w-full'>
 
           {/* Upper */}
           <div className=' flex flex-col gap-[30px] my:w-[513px] '>
-            <h1 className='text-[32px] leading-[44.8px] clash'>The furniture brand for the future, with timeless designs</h1>
+            <h1 className='my:text-[32px] sm:text-[24px] my:leading-[44.8px] clash'>The furniture brand for the future, with timeless designs</h1>
             <Link href='/Products'><button type='button' className='satoshi text-[16px] bg-[#f9f9f9]/15 px-[30px] py-[16px] w-[170px]'>View collection</button></Link>
           </div>
 
           {/* Lower */}
-          <div className='text-[18px] satoshi my:w-[502px] sm:w-[330px]'>
+          <div className='text-[18px] satoshi my:w-[502px] sm:w-[230px]'>
             <p>A new era in eco friendly furniture with Avelon, the French luxury retail brand with nice fonts, tasteful colors and a beautiful way to display things digitally using modern web technologies.</p>
           </div>
         </div>
 
         {/* Right */}
         <div className='sm:hidden my:block'>
-          <Image src='/images/Right Image.png' width={520} height={584} alt='Right Image' />
+          <Image src='/images/Right Image.png' width={520} height={584} alt='Right Image' className='my:w-[520px] my:h-[584px]'/>
         </div>
       </div>
 

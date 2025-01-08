@@ -12,7 +12,7 @@ const Products = () => {
         <HomeHeader />
 
         <div>
-            <Image src='/images/product-bg.png' width={1440} height={209} alt='Products banner' className='sm:w-[390px] my:w-[1440px]'/>
+            <Image src='/images/product-bg.png' width={1440} height={209} alt='Products banner' className='sm:w-[390px] my:min-w-[1440px]'/>
         </div>
 
         <div className='flex my:justify-between w-full my:px-[100px] py-[16px] items-center sm:px-[20px] sm:justify-center'>

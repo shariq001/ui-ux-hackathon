@@ -14,8 +14,10 @@ const config: Config = {
       },
     },
     screens: {
-      'sm': '390px',
-      'my': '1440px'
+      'sm': '320px',
+      'md': '786px',
+      'lg': '1024px',
+      'my': '1440px',
     }
   },
   plugins: [],

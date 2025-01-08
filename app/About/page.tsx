@@ -6,10 +6,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTruck, faXmark, faSeedling  } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faSquareFacebook, faInstagram, faSkype, faTwitter, faPinterest } from '@fortawesome/free-brands-svg-icons';
 import { faCircleCheck, faCreditCard } from '@fortawesome/free-regular-svg-icons';
-import Aboutheader from '@/components/Aboutheader';
+
 import Productfooter from '@/components/Productfooter';
 import Image from 'next/image';
 import Link from 'next/link';
+import AboutHeader from '@/components/AboutHead';
+
+
+
+
 
 const About = () => {
 
@@ -18,9 +23,9 @@ const About = () => {
   return (
     <>
         {isVisible && (
-            <div>
+            <div className='my:min-w-[1440px]'>
                 {/* Promo */}
-                <div className='bg-[#2a254b] my:w-[1440px]  text-white text-center flex justify-between items-center py-[10px] px-[30px] w-full'>
+                <div className='bg-[#2a254b] my:min-w-[1440px]  text-white text-center flex justify-between items-center py-[10px] px-[30px] w-full'>
                     <p></p>
                     <p className='text-[14px] satoshi flex items-center justify-center'><FontAwesomeIcon icon={faTruck} className='size-[15px] inline-flex  mr-[10px]' />Free delivery on all orders over £50 with code easter checkout</p>
                     <button type='button' onClick={() => setIsVisible(false)}><FontAwesomeIcon icon={faXmark} className='size-[15px]' /></button>
@@ -28,7 +33,7 @@ const About = () => {
             </div>
         )}
 
-        <Aboutheader />
+        <AboutHeader />
 
         {/* Section 1 */}
         <div className='my:min-w-[1440px] my:p-[100px] flex justify-between my:flex-row w-full items-center sm:px-[20px] sm:py-[50px] sm:flex-col sm:gap-[50px]'>
@@ -49,7 +54,7 @@ const About = () => {
         </div>
 
         {/* Section 3 */}
-        <div className='my:w-[1440px] flex justify-between my:flex-row items-center bg-[#f9f9f9] w-full sm:flex-col'>
+        <div className='my:min-w-[1440px] flex justify-between my:flex-row items-center bg-[#f9f9f9] w-full sm:flex-col'>
         
             {/* Left */}
             <div>
@@ -67,7 +72,7 @@ const About = () => {
         </div>
 
         {/* Section 4 */}
-        <div className='my:w-[1440px] my:p-[100px] flex flex-col my:items-center gap-[50px] sm:px-[20px] sm:py-[50px] sm:items-start'>
+        <div className='my:min-w-[1440px] my:p-[100px] flex flex-col my:items-center gap-[50px] sm:px-[20px] sm:py-[50px] sm:items-start'>
         
                 {/* first */}
                 <div>
@@ -108,7 +113,7 @@ const About = () => {
         </div>
 
         {/* Section 5 */}
-        <div className='my:w-[1440px] my:p-[50px] bg-[#f9f9f9] sm:px-[0px]'>
+        <div className='my:min-w-[1440px] my:p-[50px] bg-[#f9f9f9] sm:px-[0px]'>
             <div className='bg-white my:p-[100px] text-[#2a254b] flex flex-col my:items-center gap-[16px] sm:px-[20px] sm:items-start'>
             <h2 className='my:text-[36px] clash sm:text-[20px]'>Join the club and get the benefits</h2>
             <p className='text-[16px] leading-[24px] satoshi my:w-[470px] my:text-center sm:text-[14px] sm:w-full sm:text-left'>Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
@@ -120,7 +125,7 @@ const About = () => {
       </div>
 
       {/* Section 6 */}
-      <div className='my:w-[1440px] my:p-[100px] bg-[#2a254b] text-white flex justify-between my:flex-row w-full border-b-[2px] border-[#4e4d93] sm:px-[20px] sm:py-[50px] sm:flex-col sm:gap-[50px]'>
+      <div className='my:min-w-[1440px] my:p-[100px] bg-[#2a254b] text-white flex justify-between my:flex-row w-full border-b-[2px] border-[#4e4d93] sm:px-[20px] sm:py-[50px] sm:flex-col sm:gap-[50px]'>
 
         {/* 1 */}
         <div className='w-[160px]'>

@@ -99,7 +99,7 @@ const ProductListing = () => {
     </div>
 
     {/* Section 2 */}
-    <div className='my:w-[1440px] my:p-[100px] flex flex-col gap-[50px] sm:px-[20px] sm:py-[50px]'>
+    <div className='my:min-w-[1440px] my:p-[100px] flex flex-col gap-[50px] sm:px-[20px] sm:py-[50px]'>
     
             {/* first */}
             <div>
@@ -143,7 +143,7 @@ const ProductListing = () => {
     </div>
 
     {/* Section 3 */}
-    <div className='my:w-[1440px] my:p-[100px] flex flex-col my:items-center gap-[50px] sm:px-[20px] sm:py-[50px] sm:items-start'>
+    <div className='my:min-w-[1440px] my:p-[100px] flex flex-col my:items-center gap-[50px] sm:px-[20px] sm:py-[50px] sm:items-start'>
     
             {/* first */}
             <div>
@@ -184,7 +184,7 @@ const ProductListing = () => {
     </div>
 
     {/* Section 4 */}
-    <div className=' my:w-[1440px] my:p-[50px] bg-[#f9f9f9] sm:px-[0px] sm:my-[30px] my:my-0'>
+    <div className=' my:min-w-[1440px] my:p-[50px] bg-[#f9f9f9] sm:px-[0px] sm:my-[30px] my:my-0'>
         <div className='bg-white my:p-[100px] text-[#2a254b] flex flex-col my:items-center gap-[16px] sm:px-[20px] sm:items-start'>
           <h2 className='my:text-[36px] clash sm:text-[20px]'>Join the club and get the benefits</h2>
           <p className='my:text-[16px] leading-[24px] satoshi my:w-[470px] my:text-center sm:text-[14px] sm:w-full sm:text-left'>Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
@@ -196,7 +196,7 @@ const ProductListing = () => {
     </div>
 
     {/* Section 5 */}
-    <div className='my:w-[1440px] my:p-[100px] bg-[#2a254b] text-white flex my:flex-row justify-between w-full border-b-[2px] border-[#4e4d93] sm:px-[20px] sm:py-[50px] sm:flex-col sm:gap-[50px]'>
+    <div className='my:min-w-[1440px] my:p-[100px] bg-[#2a254b] text-white flex my:flex-row justify-between w-full border-b-[2px] border-[#4e4d93] sm:px-[20px] sm:py-[50px] sm:flex-col sm:gap-[50px]'>
 
         {/* 1 */}
         <div className='w-[160px]'>

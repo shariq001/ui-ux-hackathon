@@ -17,7 +17,7 @@ const HomeHeader = () => {
   };
 
   return (
-    <div className="px-[20px] py-[16px] flex flex-col items-center w-full bg-white my:min-w-[1440px] sm:px-[10px] sm:min-w-[390px]">
+    <div className="my:px-[30px] py-[16px] flex flex-col items-center w-full bg-white my:min-w-[1440px] sm:px-[10px] sm:min-w-[320px]">
       {/* Header Top Section */}
       <div className="flex justify-between items-center bg-white text-black w-full border-gray-200 border-b-[1px] pb-[10px]">
         <FontAwesomeIcon icon={faMagnifyingGlass} className="size-[20px] my:block sm:hidden" />
