@@ -44,15 +44,15 @@ const ProductListing = () => {
     <ProductListingheader />
 
     {/* Section 1 */}
-    <div className='my:min-w-[1440px] flex justify-center my:flex-row w-full my:items-center sm:flex-col sm:items-start'>
+    <div className='my:min-w-[1440px] flex justify-center my:flex-row w-full my:items-center sm:flex-col sm:items-start md:flex-row'>
 
         {/* Left */}
         <div>
-            <Image src='/images/productimg1.png' width={721} height={759} alt='Product Image' className='sm:w-[390px] sm:h-[380px] my:w-[721px] my:h-[759px]'/>
+            <Image src='/images/productimg1.png' width={721} height={759} alt='Product Image' className='sm:w-[390px] sm:h-[380px] my:w-[721px] my:h-[759px] md:w-[350px] md:h-[400px]'/>
         </div>
 
         {/* Right */}
-        <div className='my:p-[100px] sm:px-[20px] sm:py-[50px]'>
+        <div className='my:p-[100px] sm:px-[20px] sm:py-[50px] md:py-0'>
             <h1 className='my:text-[36px] clash text-[#2a254b] sm:text-[24px]'>The Dandy Chair</h1>
             <h3 className='my:text-[24px] satoshi text-[#12131a] mb-[30px] sm:text-[20px]'>&pound;250</h3>
             <div className='my:w-[522px] flex flex-col gap-[20px] sm:w-[280px]'>
@@ -64,7 +64,7 @@ const ProductListing = () => {
                     <li className='list-item'>Quality timeless classic</li>
                 </ul>
             </div>
-            <div className='my-[50px]'>
+            <div className='sm:my-[50px] md:mt-2'>
                 <h4 className='clash text-[16px] text-[#2a254b]'>Dimensions</h4>
                 <table className='p-[20px]'>
                     <thead>
@@ -99,7 +99,7 @@ const ProductListing = () => {
     </div>
 
     {/* Section 2 */}
-    <div className='my:min-w-[1440px] my:p-[100px] flex flex-col gap-[50px] sm:px-[20px] sm:py-[50px]'>
+    <div className='my:min-w-[1440px] my:p-[100px] flex flex-col gap-[50px] sm:px-[20px] sm:py-[50px] md:px-[30px]'>
     
             {/* first */}
             <div>
@@ -124,14 +124,14 @@ const ProductListing = () => {
               </div>
     
               {/* 3 */}
-              <div className='flex flex-col gap-[10px] my:w-[305px] sm:w-[163px] sm:mt-[40px] my:mt-0'>
+              <div className='flex flex-col gap-[10px] my:w-[305px] sm:w-[163px] sm:mt-[40px] md:mt-0'>
                 <Image src='/images/product3.png' width={305} height={375} alt='Product Card' className='sm:w-[163px] sm:h-[201px] my:w-[305px] my:h-[375px]'/>
                 <p className='text-[20px] clash'>The Silky Vase</p>
                 <p className='text-[18px] satoshi'>&pound;125</p>
               </div>
     
               {/* 4 */}
-              <div className='flex flex-col gap-[10px] my:w-[305px] sm:w-[163px] sm:mt-[40px] my:mt-0'>
+              <div className='flex flex-col gap-[10px] my:w-[305px] sm:w-[163px] sm:mt-[40px] md:mt-0'>
                 <Image src='/images/product4.png' width={305} height={375} alt='Product Card' className='sm:w-[163px] sm:h-[201px] my:w-[305px] my:h-[375px]'/>
                 <p className='text-[20px] clash'>The Lucy Lamp</p>
                 <p className='text-[18px] satoshi'>&pound;399</p>

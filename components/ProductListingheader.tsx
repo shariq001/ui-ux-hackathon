@@ -17,7 +17,7 @@ const ProductListingheader = () => {
   };
 
   return (
-    <div className="flex justify-between items-center py-[16px] px-[30px] sm:min-w-[320px] sm:px-[20px] my:min-w-[1440px]">
+    <div className="flex justify-between items-center py-[16px] px-[30px] sm:min-w-[320px] sm:px-[20px] my:min-w-[1440px] md:min-w-[768px]">
       {/* Logo */}
       <h1 className="text-[#22202e] text-[24px] clash">Avion</h1>
       
@@ -50,7 +50,7 @@ const ProductListingheader = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="fixed top-0 left-0 w-[80%] h-full bg-white z-50 shadow-lg sm:flex flex-col p-[20px] gap-5">
+        <div className="fixed top-0 left-0 w-[50%] h-full bg-white z-50 shadow-lg sm:flex flex-col p-[20px] gap-5">
           <div className="flex justify-end">
             <button onClick={closeMenu} className="text-black text-[25px]">
               <FontAwesomeIcon icon={faTimes} />

@@ -40,7 +40,7 @@ const Aboutheader = () => {
 
       {/* Mobile Navbar */}
       {isNavOpen && (
-        <div className="absolute top-0 left-0 z-50 bg-white shadow-lg w-[80%] max-w-[280px] h-auto px-[20px] py-[16px]">
+        <div className="absolute top-0 left-0 z-50 bg-white shadow-lg w-[80%] max-w-[280px] h-full px-[20px] py-[16px]">
           <div className="flex justify-between items-center mb-6">
             <h1 className="text-[24px] clash">Avion</h1>
             <button onClick={closeNav}>

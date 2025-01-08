@@ -5,9 +5,9 @@ import { faLinkedin, faSquareFacebook, faInstagram, faSkype, faTwitter, faPinter
 
 const Homefooter = () => {
   return (
-    <div className='my:min-w-[1440px] bg-[#2a254b] text-white my:px-[100px] py-[16px] flex my:justify-between items-center sm:min-w-[320px] sm:px-[20px] sm:justify-center'>
+    <div className='my:min-w-[1440px] bg-[#2a254b] text-white my:px-[100px] py-[16px] flex my:justify-between items-center sm:min-w-[320px] sm:px-[20px] sm:justify-center md:justify-between'>
         <h2 className='satoshi text-[14px]'>Copyright 2022 Avion LTD</h2>
-        <nav className='my:flex gap-[24px] sm:hidden'>
+        <nav className='my:flex gap-[24px] sm:hidden md:flex'>
             <Link href=''><FontAwesomeIcon icon={faLinkedin} className='size-[24px] text-white' /></Link>
             <Link href=''><FontAwesomeIcon icon={faSquareFacebook} className='size-[24px] text-white' /></Link>
             <Link href=''><FontAwesomeIcon icon={faInstagram} className='size-[24px] text-white' /></Link>
