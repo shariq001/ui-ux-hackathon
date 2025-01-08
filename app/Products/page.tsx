@@ -8,11 +8,11 @@ import Homefooter from '@/components/Homefooter';
 
 const Products = () => {
   return (
-    <div className='my:min-w-[1440px] sm:min-w-[390px]'>
+    <div className='my:min-w-[1440px] sm:min-w-[320px]'>
         <HomeHeader />
 
         <div>
-            <Image src='/images/product-bg.png' width={1440} height={209} alt='Products banner' className='sm:w-[390px] my:min-w-[1440px]'/>
+            <Image src='/images/product-bg.png' width={1440} height={209} alt='Products banner' className='sm:w-[320px] my:min-w-[1440px]'/>
         </div>
 
         <div className='flex my:justify-between w-full my:px-[100px] py-[16px] items-center sm:px-[20px] sm:justify-center'>
@@ -167,7 +167,7 @@ const Products = () => {
         </div>
 
         {/* 4 */}
-        <div className='flex flex-col w-[627px] sm:mt-[20px] my:mt-0'>
+        <div className='flex flex-col my:w-[627px] sm:mt-[20px] my:mt-0'>
           <h2 className='text-[16px] clash'>Join our mailing list</h2>
           <div className='flex my:w-[472px] h-[56px] justify-center items-center mt-[50px] sm:w-[280px]'>
             <input type="email" placeholder='your@email.com' className='w-[354px] bg-[#f9f9f9]/15 p-[16px] '/>

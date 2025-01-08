@@ -10,7 +10,8 @@ import { faCircleCheck, faCreditCard } from '@fortawesome/free-regular-svg-icons
 import Productfooter from '@/components/Productfooter';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutHeader from '@/components/AboutHead';
+import AboutHead from '@/components/AboutHead';
+
 
 
 
@@ -33,32 +34,32 @@ const About = () => {
             </div>
         )}
 
-        <AboutHeader />
+        <AboutHead />
 
         {/* Section 1 */}
-        <div className='my:min-w-[1440px] my:p-[100px] flex justify-between my:flex-row w-full items-center sm:px-[20px] sm:py-[50px] sm:flex-col sm:gap-[50px]'>
-            <h2 className='leading-[50.4px] my:text-[36px] clash my:w-[704px] text-[#2a254b] sm:text-[32px] sm:w-[342px]'>A brand built on the love of craftmanship, quality and outstanding customer service</h2>
+        <div className='my:min-w-[1440px] my:p-[100px] flex justify-between my:flex-row w-full items-center sm:min-w-[320px] sm:px-[20px] sm:py-[50px] sm:flex-col sm:gap-[50px]'>
+            <h2 className='leading-[50.4px] my:text-[36px] clash my:w-[704px] text-[#2a254b] sm:text-[28px] sm:w-[280px]'>A brand built on the love of craftmanship, quality and outstanding customer service</h2>
             <Link href='/Products'><button type='button' className='text-[16px] satoshi bg-[#f9f9f9] my:w-[170px] px-[32px] py-[16px] rounded-[5px] my:m-[auto] sm:w-full'>View collection</button></Link>
         </div>
 
         {/* Section 2 */}
-        <div className='my:w-[1440px] my:px-[100px] py-[50px] flex my:flex-row justify-between w-full items-center sm:flex-col sm:px-[20px] sm:gap-[30px]'>
-            <div className='bg-[#2a254b] text-white flex flex-col gap-[20px] my:w-[634px] my:h-[478px] my:p-[50px] sm:px-[20px] sm:py-[30px] sm:w-[342px] sm:h-[281px]'>
+        <div className='my:w-[1440px] my:px-[100px] py-[50px] flex my:flex-row justify-between w-full items-center sm:flex-col sm:px-[0px] sm:gap-[0px]'>
+            <div className='bg-[#2a254b] text-white flex flex-col gap-[20px] my:w-[634px] my:h-[478px] my:p-[50px] sm:px-[20px] sm:py-[30px] sm:w-[320px] sm:h-[281px]'>
                 <h2 className='clash my:text-[32px] sm:text-[20px]'>It started with a small idea</h2>
                 <p className='my:text-[18px] satoshi leading-[24.3px] my:w-[495px] sm:text-[14px] sm:w-[278px]'>A global brand with local beginnings, our story begain in a small studio in South London in early 2014</p>
                 <Link href='/Products' ><button type='button' className='text-[16px] satoshi bg-[#f9f9f9]/15 my:w-[170px] px-[32px] py-[16px] sm:w-full'>View collection</button></Link>
             </div>
             <div>
-                <Image src='/images/about-img1.png' width={630} height={478} alt='Image 1' className='sm:w-[342px] sm:h-[259px] my:w-[630px] my:h-[478px]'/>
+                <Image src='/images/about-img1.png' width={630} height={478} alt='Image 1' className='sm:w-[320px] sm:h-[259px] my:w-[630px] my:h-[478px]'/>
             </div>
         </div>
 
         {/* Section 3 */}
-        <div className='my:min-w-[1440px] flex justify-between my:flex-row items-center bg-[#f9f9f9] w-full sm:flex-col'>
+        <div className='my:min-w-[1440px] sm:min-w-[320px] flex justify-between my:flex-row items-center bg-[#f9f9f9] w-full sm:flex-col'>
         
             {/* Left */}
             <div>
-                <Image src='/images/about-img2.png' width={720} height={603} alt='Get in Touch' className='sm:w-[390px] sm:h-[358px] my:w-[720px] my:h-[603px]'/>
+                <Image src='/images/about-img2.png' width={720} height={603} alt='Get in Touch' className='sm:w-[320px] sm:h-[358px] my:w-[720px] my:h-[603px]'/>
             </div>
 
             {/* Right */}
@@ -72,7 +73,7 @@ const About = () => {
         </div>
 
         {/* Section 4 */}
-        <div className='my:min-w-[1440px] my:p-[100px] flex flex-col my:items-center gap-[50px] sm:px-[20px] sm:py-[50px] sm:items-start'>
+        <div className='my:min-w-[1440px] sm:min-w-[320px] my:p-[100px] flex flex-col my:items-center gap-[50px] sm:px-[20px] sm:py-[50px] sm:items-start'>
         
                 {/* first */}
                 <div>
@@ -113,7 +114,7 @@ const About = () => {
         </div>
 
         {/* Section 5 */}
-        <div className='my:min-w-[1440px] my:p-[50px] bg-[#f9f9f9] sm:px-[0px]'>
+        <div className='my:min-w-[1440px] my:p-[50px] bg-[#f9f9f9] sm:px-[0px] sm:py-[50px]'>
             <div className='bg-white my:p-[100px] text-[#2a254b] flex flex-col my:items-center gap-[16px] sm:px-[20px] sm:items-start'>
             <h2 className='my:text-[36px] clash sm:text-[20px]'>Join the club and get the benefits</h2>
             <p className='text-[16px] leading-[24px] satoshi my:w-[470px] my:text-center sm:text-[14px] sm:w-full sm:text-left'>Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>

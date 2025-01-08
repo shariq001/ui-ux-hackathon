@@ -17,7 +17,7 @@ const ProductListingheader = () => {
   };
 
   return (
-    <div className="flex justify-between items-center py-[16px] px-[30px] sm:min-w-[390px] sm:px-[20px] my:min-w-[1440px]">
+    <div className="flex justify-between items-center py-[16px] px-[30px] sm:min-w-[320px] sm:px-[20px] my:min-w-[1440px]">
       {/* Logo */}
       <h1 className="text-[#22202e] text-[24px] clash">Avion</h1>
       
@@ -58,25 +58,16 @@ const ProductListingheader = () => {
           </div>
           <ul className="flex flex-col gap-[16px] text-[18px] text-[#22202e]">
             <li onClick={closeMenu}>
-              <Link href="">Plant pots</Link>
+              <Link href="">Home</Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="">Ceramics</Link>
+              <Link href="">Product</Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="">Tables</Link>
+              <Link href="">Product Listing</Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="">Chairs</Link>
-            </li>
-            <li onClick={closeMenu}>
-              <Link href="">Crockery</Link>
-            </li>
-            <li onClick={closeMenu}>
-              <Link href="">Tableware</Link>
-            </li>
-            <li onClick={closeMenu}>
-              <Link href="">Cutlery</Link>
+              <Link href="">Cart</Link>
             </li>
           </ul>
         </div>

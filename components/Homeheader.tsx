@@ -57,26 +57,18 @@ const HomeHeader = () => {
           </div>
           <ul className="flex flex-col gap-[16px] text-[18px] text-[#22202e]">
             <li onClick={closeMenu}>
-              <Link href="">Plant pots</Link>
+              <Link href="">Home</Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="">Ceramics</Link>
+              <Link href="">Product</Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="">Tables</Link>
+              <Link href="">Product Listing</Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="">Chairs</Link>
+              <Link href="">Cart</Link>
             </li>
-            <li onClick={closeMenu}>
-              <Link href="">Crockery</Link>
-            </li>
-            <li onClick={closeMenu}>
-              <Link href="">Tableware</Link>
-            </li>
-            <li onClick={closeMenu}>
-              <Link href="">Cutlery</Link>
-            </li>
+            
           </ul>
         </div>
       )}
