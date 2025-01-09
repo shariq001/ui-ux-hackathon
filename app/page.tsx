@@ -41,7 +41,7 @@ const Home = () => {
 
         {/* first */}
         <div>
-          <h2 className='clash text-[32px] text-[#2a254b]'>What makes our brand different</h2>
+          <h2 className='clash md:text-[32px] sm:text-[24px] text-[#2a254b]'>What makes our brand different</h2>
         </div>
 
         {/* Second */}
@@ -161,7 +161,7 @@ const Home = () => {
       {/* Section 5 */}
       <div className='my:p-[50px] bg-[#f9f9f9] sm:px-[0px] md:px-[30px] md:py-[50px]'>
         <div className='bg-white my:p-[100px] text-[#2a254b] flex flex-col my:items-center gap-[16px] sm:px-[20px] sm:items-start md:items-center md:py-[30px]'>
-          <h2 className='lg:text-[36px] clash sm:text-[20px]'>Join the club and get the benefits</h2>
+          <h2 className='md:text-[36px] clash sm:text-[20px]'>Join the club and get the benefits</h2>
           <p className='my:text-[16px] leading-[24px] satoshi my:w-[470px] my:text-center sm:text-[14px] sm:w-full sm:text-left lg:text-center'>Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
           <div className='flex my:w-[472px] h-[56px] justify-center items-center mt-[50px] sm:w-full'>
             <input type="email" placeholder='your@email.com' className='sm:w-[200px] bg-[#f9f9f9] p-[16px] md:w-[300px] lg:w-[400px]'/>
@@ -175,7 +175,7 @@ const Home = () => {
 
         {/* Left */}
         <div className='my:p-[100px] flex flex-col gap-[25px] my:w-[720px] sm:px-[20px] sm:py-[50px] sm:w-full '>
-          <h2 className='lg:text-[32px] text-[#2a254b] clash leading-[33.6px] sm:text-[20px]'>From a studio in London to a global brand with over 400 outlets</h2>
+          <h2 className='md:text-[32px] text-[#2a254b] clash leading-[33.6px] sm:text-[20px]'>From a studio in London to a global brand with over 400 outlets</h2>
           <p className='my:text-[16px] text-[#505977] satoshi sm:text-[14px] sm:leading-[21px]'>When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market.</p>
           <p className='my:text-[16px] text-[#505977] satoshi sm:text-[14px] sm:leading-[21px]'>Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
 

@@ -52,6 +52,7 @@ const Aboutheader = () => {
             <Link href="/Products" onClick={closeNav}>Products</Link>
             <Link href="/Product-Listing" onClick={closeNav}>Product Listing</Link>
             <Link href="/Cart" onClick={closeNav}>Cart</Link>
+            <Link href="/About" onClick={closeNav}>About</Link>
           </div>
         </div>
       )}

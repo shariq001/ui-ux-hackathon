@@ -103,7 +103,7 @@ const ProductListing = () => {
     
             {/* first */}
             <div>
-              <h2 className='lg:text-[32px] clash text-[#2a254b] sm:text-[20px]'>You might also like</h2>
+              <h2 className='md:text-[32px] clash text-[#2a254b] sm:text-[20px]'>You might also like</h2>
             </div>
     
             {/* Second */}
@@ -147,7 +147,7 @@ const ProductListing = () => {
     
             {/* first */}
             <div>
-              <h2 className='clash my:text-[32px] text-[#2a254b] sm:text-[20px]'>What makes our brand different</h2>
+              <h2 className='clash md:text-[32px] text-[#2a254b] sm:text-[20px]'>What makes our brand different</h2>
             </div>
     
             {/* Second */}
@@ -186,7 +186,7 @@ const ProductListing = () => {
     {/* Section 4 */}
     <div className=' my:min-w-[1440px] my:p-[50px] bg-[#f9f9f9] sm:px-[0px] md:px-[30px] sm:my-[30px] my:my-0 '>
         <div className='bg-white my:p-[100px] text-[#2a254b] flex flex-col my:items-center gap-[16px] sm:px-[20px] sm:items-start md:py-[30px] md:items-center'>
-          <h2 className='lg:text-[36px] clash sm:text-[20px]'>Join the club and get the benefits</h2>
+          <h2 className='md:text-[32px] clash sm:text-[20px]'>Join the club and get the benefits</h2>
           <p className='my:text-[16px] leading-[24px] satoshi my:w-[470px] my:text-center sm:text-[14px] sm:w-full sm:text-left lg:text-center'>Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
           <div className='flex my:w-[472px] h-[56px] justify-center items-center mt-[50px] sm:w-full'>
             <input type="email" placeholder='your@email.com' className='sm:w-[200px] md:w-[300px] bg-[#f9f9f9] p-[16px] rounded-[5px] lg:w-[400px]'/>

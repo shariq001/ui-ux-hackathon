@@ -69,6 +69,9 @@ const ProductListingheader = () => {
             <li onClick={closeMenu}>
               <Link href="/Cart">Cart</Link>
             </li>
+            <li onClick={closeMenu}>
+              <Link href="/About">About</Link>
+            </li>
           </ul>
         </div>
       )}
