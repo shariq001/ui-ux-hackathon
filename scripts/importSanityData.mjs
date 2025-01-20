@@ -10,10 +10,10 @@ const __dirname = path.dirname(__filename);
 dotenv.config({ path: path.resolve(__dirname, '../.env.local') });
 
 const client = createClient({
-    projectId: "4o2tsd03",
-    dataset: "production",
-    useCdn: true,
-    token: "skA38S3Hq39u5hrMTG4LpUz9d3J4Qgl4kPMxYuRy2YAJNKK3UYsIw8xbABvI2AFRXgT7EOifDAraOyAcq1oYNqckso91OsQk373zuGIKKtgMD3bpkpDPGwFUUXyr3xhUd0m6GEwUKe3sC8TnSLTjqsygpgQrlsfIqLVxtNOy36H7HhnXEHBf",
+    projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
+    dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
+    useCdn: false,
+    token: process.env.SANITY_API_TOKEN,
     apiVersion: '2021-08-31'
 });
 
